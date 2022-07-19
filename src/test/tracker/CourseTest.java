@@ -73,6 +73,6 @@ public class CourseTest {
 
     @Test
     public void testAverageGradeZero() {
-        assertEquals((double) 0, courseDsa.averageGrade());
+        assertEquals(0, courseDsa.averageGrade());
     }
 }
